@@ -16,6 +16,7 @@ const Nav = () => {
             <button onClick={() => navigate('/home/wiki')}>Wiki</button> 
             <button onClick={() => navigate(-1)}>Go Back</button>
             <button onClick={() => navigate(1)}>Go Forward</button>
+            <button onClick={() => navigate('/')} className="sign-out">Sign Out</button>
         </div>
         </div>
     );
