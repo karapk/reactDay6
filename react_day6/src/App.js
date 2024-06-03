@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   {
     path: "/home",
     element: <Layout />,
-    errorElement: <ErrorPage />,
+    
     children: [
       { path: "", element: <Home /> },
       { path: "pokemon/:pokemonID", element: <Pokemon /> },
@@ -23,6 +23,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
+    errorElement: <ErrorPage />,
     element: <SignIn />, 
   }
 ]);
