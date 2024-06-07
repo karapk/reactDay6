@@ -5,6 +5,10 @@ import './Nav.css';
 const Nav = () => {
     const navigate = useNavigate();
     const userName = localStorage.getItem('userName');
+    function signOut() {
+        localStorage.clear();
+        navigate('/');
+    }
 
 
     return (
@@ -16,7 +20,7 @@ const Nav = () => {
             <button onClick={() => navigate('/home/wiki')}>Wiki</button> 
             <button onClick={() => navigate(-1)}>Go Back</button>
             <button onClick={() => navigate(1)}>Go Forward</button>
-            <button onClick={() => navigate('/')} className="sign-out">Sign Out</button>
+            <button onClick={() => signOut()} className="sign-out">Sign Out</button>
         </div>
         </div>
     );
