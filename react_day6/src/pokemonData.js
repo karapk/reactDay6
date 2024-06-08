@@ -58,5 +58,21 @@ export const pokemonData = [
       id: 12,
       name: 'pikachu',
       image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'
+    },
+    {
+      id: 13, 
+      name: 'numel',
+      image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/322.gif',
+    },
+    {
+      id: 14,
+      name: 'electabuzz',
+      image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/125.gif',
+    },
+    {
+      id: 15,
+      name: 'seel',
+      image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/86.gif'
     }
+      
   ];
